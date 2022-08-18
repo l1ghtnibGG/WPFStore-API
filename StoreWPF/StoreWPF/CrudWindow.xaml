@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:StoreWPF"
         mc:Ignorable="d"
-        Title="CrudWindow" Height="600" Width="800">
+        Title="CrudWindow" Height="600" Width="850">
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="0.5*"/>
@@ -20,22 +20,23 @@
         <StackPanel Grid.Column="1" VerticalAlignment="Top" HorizontalAlignment="Center" Margin="10">
             <Label HorizontalAlignment="Center" FontSize="15" FontWeight="DemiBold">Edit Window</Label>
             <Image Source="C:\Users\vladi\source\repos\StoreWPF\StoreWPF\Images\Iphone8.png" x:Name="EditImage" Width="250" MouseLeftButtonDown="EditImageClicked"/>
-            <StackPanel Orientation="Horizontal" Height="45">
+            <StackPanel Orientation="Horizontal" Height="45" HorizontalAlignment="Right">
                 <Label Content="Name:" FontSize="15" FontWeight="DemiBold" Margin="5"/>
                 <TextBox x:Name="nameEditContent" FontSize="15" FontWeight="DemiBold" MinWidth="150" Height="40" VerticalAlignment="Center"/>
             </StackPanel>
-            <StackPanel Height="45" Orientation="Horizontal">
+            <StackPanel Height="45" Orientation="Horizontal" HorizontalAlignment="Right">
                 <Label Content="Price:" FontSize="15" FontWeight="DemiBold" Margin="5"/>
                 <TextBox x:Name="priceEditContent" FontSize="15" FontWeight="DemiBold" MinWidth="150" Height="40"/>
             </StackPanel>
             <StackPanel Height="45" Orientation="Horizontal" Width="250">
-                <Label Content="Description:" FontSize="15" FontWeight="DemiBold" Margin="5"/>
-                <TextBox x:Name="descriptionEditContent" FontSize="15" FontWeight="DemiBold" MinWidth="150" Height="40" TextWrapping="Wrap" AcceptsReturn="True"/>
+                <Label Content="Description:" FontSize="15" FontWeight="DemiBold" Margin="5" HorizontalAlignment="Right"/>
+                <TextBox x:Name="descriptionEditContent" FontSize="15" FontWeight="DemiBold" VerticalScrollBarVisibility="Visible" Width="150" Height="40" TextWrapping="Wrap" AcceptsReturn="True"/>
             </StackPanel>
-            <StackPanel Height="45" Orientation="Horizontal">
+            <StackPanel Height="45" Orientation="Horizontal" HorizontalAlignment="Right">
                 <Label Content="Amount:" FontSize="15" FontWeight="DemiBold" Margin="5"/>
                 <TextBox x:Name="amountEditContent" FontSize="15" FontWeight="DemiBold" MinWidth="150" Height="40" MaxLength ="50"/>
             </StackPanel>
+            <Button Content="Apply" Height="40" FontSize="20" FontWeight="DemiBold" Background="White" Click="EditApllyButtonClicked"/>
         </StackPanel>
     </Grid> 
 </Window>

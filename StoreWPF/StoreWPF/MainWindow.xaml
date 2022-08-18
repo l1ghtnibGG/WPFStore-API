@@ -13,15 +13,15 @@
                 <Image Source="C:\Users\vladi\source\repos\StoreWPF\StoreWPF\Images\Iphone8.png" MouseLeftButtonDown="Id1Clicked"/>
                 <TextBlock x:Name="Id0Name" TextAlignment="Center" FontSize="19" FontWeight="DemiBold"/>
             </StackPanel>
-            <StackPanel Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="5" Width="250">
+                <StackPanel Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="5" Width="250" MouseLeftButtonDown="Id2Clicked">
                 <Image Source="C:\Users\vladi\source\repos\StoreWPF\StoreWPF\Images\SamsungS10.png"/>
                 <TextBlock x:Name="Id1Name" TextAlignment="Center" FontSize="19" FontWeight="DemiBold"/>
             </StackPanel>
-            <StackPanel Grid.Column="2" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="5" Width="250">
+                <StackPanel Grid.Column="2" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="5" Width="250" MouseLeftButtonDown="Id3Clicked">
                 <Image Source="C:\Users\vladi\source\repos\StoreWPF\StoreWPF\Images\Iphone13ProMax.png"/>
                 <TextBlock x:Name="Id2Name" TextAlignment="Center" FontSize="19" FontWeight="DemiBold"/>
             </StackPanel>
-            <StackPanel Grid.Column="3" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="5" Width="250">
+                <StackPanel Grid.Column="3" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="5" Width="250" MouseLeftButtonDown="Id4Clicked">
                 <Image Source="C:\Users\vladi\source\repos\StoreWPF\StoreWPF\Images\HuaweiNova9.png"/>
                 <TextBlock x:Name="Id3Name" TextAlignment="Center" FontSize="19" FontWeight="DemiBold"/>
             </StackPanel>

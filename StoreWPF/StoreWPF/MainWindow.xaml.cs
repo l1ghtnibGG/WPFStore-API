@@ -25,6 +25,7 @@ namespace StoreWPF
     /// </summary>
     public partial class MainWindow : Window
     {
+       
         public MainWindow()
         {
             InitializeComponent();
@@ -70,31 +71,20 @@ namespace StoreWPF
             CrudWindow crudWindow = new();
             crudWindow.Show(); 
         }
-
-        /*private void ButtonClick1(object sender, RoutedEventArgs e)
+        private void Id2Clicked(Object sender, RoutedEventArgs e)
         {
-            OpenFileDialog openFileDialog = new();
-            openFileDialog.Filter = "Image files|*.png;*.jpg";
-            openFileDialog.FilterIndex = 1;
-
-            if (openFileDialog.ShowDialog() == true)
-            {
-                imgPic1.Source = new BitmapImage(new Uri(openFileDialog.FileName));
-            }
+            CrudWindow crudWindow = new();
+            crudWindow.Show();
         }
-
-        private void ButtonClick2(object sender, RoutedEventArgs e)
+        private void Id3Clicked(Object sender, RoutedEventArgs e)
         {
-            Background = Brushes.White;
-
-            OpenFileDialog openFileDialog = new();
-            openFileDialog.Filter = "Image files|*.png;*.jpg";
-            openFileDialog.FilterIndex = 1;
-
-            if (openFileDialog.ShowDialog() == true)
-            {
-                imgPic2.Source = new BitmapImage(new Uri(openFileDialog.FileName));
-            }
-        }*/
+            CrudWindow crudWindow = new();
+            crudWindow.Show();
+        }
+        private void Id4Clicked(Object sender, RoutedEventArgs e)
+        {
+            CrudWindow crudWindow = new();
+            crudWindow.Show();
+        }
     }
 }

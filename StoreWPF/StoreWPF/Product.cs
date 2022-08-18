@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace StoreWPF
 {
+    [Serializable]
     internal class Product
     {
         public int Id { get; set; }
