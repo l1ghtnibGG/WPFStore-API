@@ -1,0 +1,32 @@
+{
+  "Products": [
+    {
+      "Id": 1,
+      "Name": "Iphone 8",
+      "Description": "Color - White, Storage - 128gb, 4.7 - inch display",
+      "Amount": 100,
+      "Price": 1000
+    },
+    {
+      "Id": 2,
+      "Name": "Samsung Galaxy S10",
+      "Description": "Color - Blue, Storage - 128gb, 6.1 - inch display",
+      "Amount": 154,
+      "Price": 980
+    },
+    {
+      "Id": 3,
+      "Name": "Iphone 13 Pro Max",
+      "Description": "Color - Gold, Storage - 256gb, 6.7 - inch display",
+      "Amount": 20,
+      "Price": 1500
+    },
+    {
+      "Id": 4,
+      "Name": "Hyawei Nova 9",
+      "Description": "Color - Black, Storage - 128gb, 6.6 - inch display",
+      "Amount": 10,
+      "Price": 500
+    }
+  ]
+}

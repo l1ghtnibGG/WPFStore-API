@@ -1,0 +1,41 @@
+﻿<Window x:Class="StoreWPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:StoreWPF"
+        mc:Ignorable="d"
+        Title="Store" Height="600" Width="1000">
+    <Grid>
+        <ScrollViewer>
+        <WrapPanel HorizontalAlignment="Center">
+            <StackPanel Grid.Column="0" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="8" Width="250">
+                <Image Source="C:\Users\vladi\source\repos\StoreWPF\StoreWPF\Images\Iphone8.png" MouseLeftButtonDown="Id1Clicked"/>
+                <TextBlock x:Name="Id0Name" TextAlignment="Center" FontSize="19" FontWeight="DemiBold"/>
+            </StackPanel>
+            <StackPanel Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="5" Width="250">
+                <Image Source="C:\Users\vladi\source\repos\StoreWPF\StoreWPF\Images\SamsungS10.png"/>
+                <TextBlock x:Name="Id1Name" TextAlignment="Center" FontSize="19" FontWeight="DemiBold"/>
+            </StackPanel>
+            <StackPanel Grid.Column="2" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="5" Width="250">
+                <Image Source="C:\Users\vladi\source\repos\StoreWPF\StoreWPF\Images\Iphone13ProMax.png"/>
+                <TextBlock x:Name="Id2Name" TextAlignment="Center" FontSize="19" FontWeight="DemiBold"/>
+            </StackPanel>
+            <StackPanel Grid.Column="3" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="5" Width="250">
+                <Image Source="C:\Users\vladi\source\repos\StoreWPF\StoreWPF\Images\HuaweiNova9.png"/>
+                <TextBlock x:Name="Id3Name" TextAlignment="Center" FontSize="19" FontWeight="DemiBold"/>
+            </StackPanel>
+        </WrapPanel>
+        </ScrollViewer>
+        <!--<Button Grid.Column ="0" Content="Click to Upload" Click="ButtonClick1" Width="200" Height="300">
+        </Button>
+        <Image x:Name="imgPic1" Width ="300"/>
+        <Button Grid.Column ="1" Click="ButtonClick2" Width="200" Height="300">
+            <StackPanel>
+                <Image x:Name="imgPic2"/>
+                <TextBlock HorizontalAlignment="Center" FontSize="23">Click to upload</TextBlock>
+            </StackPanel>
+        </Button>-->
+
+    </Grid>
+</Window>
